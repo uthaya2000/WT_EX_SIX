@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One-Plus Never Settle</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light navbar-expand-lg">
+        <div class="container" id="navbar">
+            <a class="navbar-brand" href="#">
+                <img src="./Images/OnePlus-logo.png" width="100" height=60 class="d-inline-block align-top" alt="oneplus logo" loading="lazy">
+            </a>
+            <button onclick="myFunc()" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item active dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="phone" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Phone
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="phone">
+                        <a class="dropdown-item" data-toggle="modal" data-target="#nord">Oneplus Nord</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#eightT">OnePlus 8T</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#eightpro">OnePlus 8pro</a>
+                    </div>
+                  </li>
+                  <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" id="TV" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        TV
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="TV">
+                        <a class="dropdown-item" data-toggle="modal" data-target="#tvq">Oneplus TV Q1 Series</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#tvu">Oneplus TV U Series</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#tvy">Oneplus TV Y Series</a>
+                    </div>
+                  </li>
+                 <li class="nav-item dropdown active">
+                    <a class="nav-link dropdown-toggle" id="audio" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Audio
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="audio">
+                        <a class="dropdown-item" data-toggle="modal" data-target="#budsz">Oneplus Buds Z</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#typec">Oneplus Type-C Bullets</a>
+                        <a class="dropdown-item" data-toggle="modal" data-target="#buds">Oneplus Buds</a>
+                    </div>
+                  </li>
+                  <li class="nav-item auth">
+                    <a class="nav-link" href="/signup">SignUp</a>
+                  </li>
+                  <li class="nav-item auth1">
+                    <a class="nav-link" href="/">Login</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contents -->
+
+    <div id="push">
+        <div class="jumbotron jumbotron-fluid" id="jumbo">
+            <div class="container">
+              <h1 class="display-4">OnePlus Store App</h1>
+              <p class="lead">Seamless Shopping Experience. Quick Support. Exclusive Benefits.</p>
+              <button type="button" class="btn btn-outline-danger">DOWNLOAD NOW</button>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid img-fluid" id="jumbo1">
+            <div class="container" id="container">
+              <h1 class="display-4">OnePlus 8T 5G</h1>
+              <p class="lead">Netflix Streamfest Bundle</p>
+              <h3><strong>From ₹42,999</strong></h3>
+              <button type="button" class="btn btn-dark">BUY NOW</button>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="jumbo3">
+            <div class="container" id="container">
+              <center>
+                <h1 class="display-4">
+                    OnePlus Bullets Wireless
+                </h1>
+                <h2>Z Bass Edition</h2>
+                <h5><em>From ₹1,999</em></h5>
+                <button type="button" class="btn btn-primary">BUY NOW</button>
+              </center>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid" id="jumbo2">
+            <div class="container" id="container">
+              <h1 class="display-4">OnePlus Power Bank</h1>
+              <p class="lead">10,000mAh Battery | 18Watt Fast Charger</p>
+              <h3><strong>From ₹1,999</strong></h3>
+              <button type="button" class="btn btn-dark">BUY NOW</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+
+    <div id="details">
+        <div class="modal fade" id="nord" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">OnePlus Nord</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="d-block w-100" src="./Images/nord2.jpg" alt="One One-Plus">
+                        <div class="content">
+                            <p><strong>Style Name - </strong>8GB RAM + 128GB</p>
+                            <p><strong>Color - </strong>Gray Onyx</p>
+                            <p><strong>Price - </strong>27,000</p>
+                            <a href="https://www.amazon.in/OnePlus-Nord-Gray-128GB-Storage/dp/B08695ZSP6/ref=sr_1_1?adgrpid=59438956696&dchild=1&ext_vrnc=hi&gclid=Cj0KCQiAzZL-BRDnARIsAPCJs70WxA9cKWk7kj_BvXcTPUkSgurzqFQxu-uP_thI0n5lteLAW5LPNvoaAvRCEALw_wcB&hvadid=398059561801&hvdev=c&hvlocphy=1007809&hvnetw=g&hvqmt=b&hvrand=6657808565953621763&hvtargid=kwd-998596045837&hydadcr=24541_1971407&keywords=oneplus+nord+5g+phone&qid=1606739262&sr=8-1&tag=googinhydr1-21" class="btn btn-light">
+                                view more details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">ADD TO CART</button>
+                        <button type="button" class="btn btn-outline-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="eightT" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">OnePlus 8T</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="d-block w-100" src="./Images/et4.jpg" alt="1+ 8T">
+                        <div class="content">
+                            <p><strong>Style Name - </strong>12GB RAM + 2568GB</p>
+                            <p><strong>Color - </strong>Lunar Silver</p>
+                            <p><strong>Price - </strong>45,999</p>
+                            <a target="_blank" href="https://www.amazon.in/OnePlus-Mirror-Black-128GB-Storage/dp/B085J1CPD1/ref=sr_1_3?adgrpid=59438956696&dchild=1&ext_vrnc=hi&gclid=Cj0KCQiAzZL-BRDnARIsAPCJs70WxA9cKWk7kj_BvXcTPUkSgurzqFQxu-uP_thI0n5lteLAW5LPNvoaAvRCEALw_wcB&hvadid=398059561801&hvdev=c&hvlocphy=1007809&hvnetw=g&hvqmt=b&hvrand=6657808565953621763&hvtargid=kwd-998596045837&hydadcr=24541_1971407&keywords=oneplus+nord+5g+phone&qid=1606739262&sr=8-3&tag=googinhydr1-21" class="btn btn-light">
+                                view more details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">ADD TO CART</button>
+                        <button type="button" class="btn btn-outline-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="eightpro" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">OnePlus 8 pro</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="d-block w-100" src="./Images/ep1.jpg" alt="1+ 8pro">
+                        <div class="content">
+                            <p><strong>Style Name - </strong>12GB RAM + 2568GB</p>
+                            <p><strong>Color - </strong>Glacial Green</p>
+                            <p><strong>Price - </strong>59,999</p>
+                            <a target="_blank" href="https://www.amazon.in/Test-Exclusive-544/dp/B077PWK5BY/ref=sr_1_8?adgrpid=59438956696&dchild=1&ext_vrnc=hi&gclid=Cj0KCQiAzZL-BRDnARIsAPCJs70WxA9cKWk7kj_BvXcTPUkSgurzqFQxu-uP_thI0n5lteLAW5LPNvoaAvRCEALw_wcB&hvadid=398059561801&hvdev=c&hvlocphy=1007809&hvnetw=g&hvqmt=b&hvrand=6657808565953621763&hvtargid=kwd-998596045837&hydadcr=24541_1971407&keywords=oneplus+nord+5g+phone&qid=1606739262&sr=8-8&tag=googinhydr1-21" class="btn btn-light">
+                                view more details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">ADD TO CART</button>
+                        <button type="button" class="btn btn-outline-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tvq" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">OnePlus TV Q1 Series</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="d-block w-100" src="./Images/tvq1.jpg" alt="1+ 8T">
+                        <div class="content">
+                            <p><strong>Resolution - </strong>4K Ultra HD</p>
+                            <p><strong>Sound - </strong>50 watt output</p>
+                            <p><strong>Price - </strong>84,999</p>
+                            <a target="_blank" href="https://www.amazon.in/OnePlus-inches-Certified-Android-55Q1IN/dp/B07W7VQ3Z7/ref=sr_1_1?crid=UFDSO86F65AY&dchild=1&keywords=oneplus+tv+q1+series&qid=1606741633&sprefix=oneplus+tv+q%2Caps%2C587&sr=8-1" class="btn btn-light">
+                                view more details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">ADD TO CART</button>
+                        <button type="button" class="btn btn-outline-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tvu" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">OnePlus TV U Series</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="d-block w-100" src="./Images/useries.jpg" alt="1+ 8T">
+                        <div class="content">
+                            <p><strong>Resolution - </strong>4K Ultra HD</p>
+                            <p><strong>Inches - </strong>55 inch</p>
+                            <p><strong>Price - </strong>54,999</p>
+                            <a target="_blank" href="https://www.amazon.in/OnePlus-138-8-inches-Android-55U1/dp/B08B4459SY" class="btn btn-light">
+                                view more details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">ADD TO CART</button>
+                        <button type="button" class="btn btn-outline-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="tvy" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">OnePlus TV Y Series</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="d-block w-100" src="./Images/yseries.jpg" alt="1+ 8T">
+                        <div class="content">
+                            <p><strong>Resolution - </strong>4K Ultra HD</p>
+                            <p><strong>Inches - </strong>43 inch</p>
+                            <p><strong>Price - </strong>24,999</p>
+                            <a target="_blank" href="https://www.amazon.in/OnePlus-inches-Smart-Android-43Y1/dp/B08B42HNH7/ref=sr_1_1?adgrpid=55709427501&dchild=1&ext_vrnc=hi&gclid=CjwKCAiA8Jf-BRB-EiwAWDtEGl0dyfLs7Gtw461Y4Nsd5xUBZ_YlILF3o9Y6I3N8y2AL2eptCIw7mBoCHpcQAvD_BwE&hvadid=398040378426&hvdev=c&hvlocphy=1007809&hvnetw=g&hvqmt=e&hvrand=3717348549814724258&hvtargid=kwd-930609944768&hydadcr=24564_1971417&keywords=oneplus+tv+y+series&qid=1606820761&sr=8-1&tag=googinhydr1-21" class="btn btn-light">
+                                view more details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">ADD TO CART</button>
+                        <button type="button" class="btn btn-outline-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="budsz" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">OnePlus Buds Z</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="d-block w-100" src="./Images/budsz.jpg" alt="1+ 8T">
+                        <div class="content">
+                            <p><strong>Color - </strong>White</p>
+                            <p><strong>Type - </strong>Wireless</p>
+                            <p><strong>Price - </strong>2,999</p>
+                            <a target="_blank" href="https://www.amazon.in/OnePlus-Buds-Z-White/dp/B07XY541GH/ref=sr_1_1?crid=KOM0W5E33XEJ&dchild=1&keywords=oneplus+buds+z&qid=1606820989&sprefix=one+plus+buds%2Caps%2C423&sr=8-1" class="btn btn-light">
+                                view more details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">ADD TO CART</button>
+                        <button type="button" class="btn btn-outline-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="buds" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">OnePlus Buds</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="d-block w-100" src="./Images/buds.jpg" alt="1+ 8T">
+                        <div class="content">
+                            <p><strong>Color - </strong>White</p>
+                            <p><strong>Type - </strong>Wireless</p>
+                            <p><strong>Price - </strong>4,999</p>
+                            <a target="_blank" href="https://www.amazon.in/OnePlus-E501A-Buds-White/dp/B08CVMXPGY/ref=sr_1_3?dchild=1&keywords=oneplus+buds&qid=1606821176&sr=8-3" class="btn btn-light">
+                                view more details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">ADD TO CART</button>
+                        <button type="button" class="btn btn-outline-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="typec" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">OnePlus Type-C Bullets</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body">
+                        <img class="d-block w-100" src="./Images/typec.jpg" alt="1+ 8T">
+                        <div class="content">
+                            <p><strong>Color - </strong>White</p>
+                            <p><strong>Type - </strong>Wireless</p>
+                            <p><strong>Price - </strong>4,999</p>
+                            <a target="_blank" href="https://www.oneplus.in/bullets-wireless-z-series?from=homepage" class="btn btn-light">
+                                view more details
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">ADD TO CART</button>
+                        <button type="button" class="btn btn-outline-danger">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+
+</html>

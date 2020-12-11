@@ -1,0 +1,80 @@
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+#jumbo{
+    background-image: url("../Images/jumbo1.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+#jumbo1{
+    background-image: url("../Images/L_5120_1360.jpg");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+#jumbo2{
+    background-image: url("../Images/PB-Banner_L_5120x1360.jpg");
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+#jumbo3{
+    background-image: url("../Images/3kv_banner_5120X1360.jpg");
+    height: 800px;
+    background-position: center;
+    background-size: cover;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+#jumbo .container{
+    padding-top: 100px;
+}
+#container{
+    padding-top: 230px;
+}
+#navbarNav{
+    font-size: 20px;
+}
+.pushDown{
+    margin-top: 250px;
+    overflow: hidden;
+    transition: height 200ms;
+}
+#details .content{
+    margin-top: 10px;
+}
+#navbar .auth{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+#navbar .auth1{
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
